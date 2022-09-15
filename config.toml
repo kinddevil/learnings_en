@@ -1,0 +1,30 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'In the Middle of Knowhere'
+theme = 'm10c'
+
+[[menu.main]]
+name = 'Home'
+url = '/home/'
+weight = 1
+
+[[menu.main]]
+name = 'Posts'
+url = '/posts/'
+weight = 2
+
+[[menu.main]]
+name = 'About'
+url = '/about/'
+weight = 3 
+
+[sitemap]
+changefreq = 'weekly'
+filename = 'sitemap.xml'
+priority = 0.5
+
+[params]
+author = 'ML'
+description = 'What shocked you today!'
+avatar = '/spidey.png'
+
